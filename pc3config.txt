@@ -1,0 +1,22 @@
+PC3> ip 192.168.2.4 255.255.255.0 192.168.2.254
+Checking for duplicate address...
+PC1 : 192.168.2.4 255.255.255.0 gateway 192.168.2.254
+
+PC3> show ip
+
+NAME        : PC3[1]
+IP/MASK     : 192.168.2.4/24
+GATEWAY     : 192.168.2.254
+DNS         :
+MAC         : 00:50:79:66:68:02
+LPORT       : 10024
+RHOST:PORT  : 127.0.0.1:10025
+MTU:        : 1500
+
+PC3> ping 192.168.2.254
+84 bytes from 192.168.2.254 icmp_seq=1 ttl=255 time=15.117 ms
+84 bytes from 192.168.2.254 icmp_seq=2 ttl=255 time=15.433 ms
+84 bytes from 192.168.2.254 icmp_seq=3 ttl=255 time=15.072 ms
+84 bytes from 192.168.2.254 icmp_seq=4 ttl=255 time=15.648 ms
+84 bytes from 192.168.2.254 icmp_seq=5 ttl=255 time=15.534 ms
+
