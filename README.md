@@ -23,7 +23,7 @@ This is a basic GNS3 network lab using two Cisco 2600 routers, one switch, and m
 - README.md: Project documentation
 
 ## 🚀 How to Use
-1. Open the `.gns3` project file in GNS3.
+1. Open the `job1.gns3` project file in GNS3.
 2. Power on all devices.
 3. Open the console for each pc to apply the saved configurations .
 4. Use `ping` to test connectivity between PCs and routers.
